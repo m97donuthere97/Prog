@@ -1,0 +1,14 @@
+﻿using System;
+namespace exo_52
+{
+    class Exo_52
+    {
+        static void Main(string[] args)
+        {
+            string[] Prenom = { "Jean", "maxim", "nicolas", "alex", "denis", "jimmy", "stephane", "martin", "charle", "emmanuelle" };
+            string[] Nom = { "Libido", "hudon", "cage", "roberge", "cloutier", "duquette", "tremblay", "kichette", "prevost", "bouliane" };
+            for (int i = 0; i < 10; i++)
+                Console.WriteLine($"Utilisateur {i + 1} : {Prenom[i]} {Nom[i]}\n");
+        }
+    }
+}
